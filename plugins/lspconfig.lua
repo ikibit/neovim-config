@@ -17,4 +17,5 @@ lspconfig.elixirls.setup {
   capabilities = capabilities,
 
   cmd = { "/home/kurt/.local/share/nvim/mason/packages/elixir-ls/language_server.sh" };
+  -- cmd = { "C:/Users/Barbaros/AppData/Local/nvim-data/mason/packages/elixir-ls/language_server.bat" };
 }
