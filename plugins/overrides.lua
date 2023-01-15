@@ -21,17 +21,17 @@ M.treesitter = {
 M.mason = {
   ensure_installed = {
     -- Lua
-    "lua-language-server",
     "stylua",
+    "lua-language-server",
 
      -- Web
     "css-lsp",
     "html-lsp",
     "emmet-ls",
     "json-lsp",
+    "eslint-lsp",
     "typescript-language-server",
     "tailwindcss-language-server",
-    "eslint-lsp"
 
     -- Elixir
     "elixir-ls"
