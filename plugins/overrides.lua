@@ -30,7 +30,7 @@ M.mason = {
     "tailwindcss-language-server",
 
     -- Elixir
-    "elixir-ls"
+    "elixir-ls",
 
     -- Lua
     "stylua",
