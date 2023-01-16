@@ -12,6 +12,10 @@ Ensure NodeJS LTS version installed
 
 `scoop install deno`
 
+`scoop install lazygit`
+
+`scoop install gh`
+
 `git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim`
 
 `git clone https://github.com/ikibit/neovim-config $HOME\AppData\Local\nvim\lua\custom`
@@ -27,6 +31,10 @@ Ensure NodeJS LTS version installed
 `brew install ripgrep`
 
 `brew install deno`
+
+`brew install lazygit`
+
+`brew install gh`
 
 `git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim`
 
