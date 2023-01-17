@@ -15,6 +15,7 @@ M.treesitter = {
     "json",
     "yaml",
     "swift",
+    "c_sharp"
   },
 }
 
@@ -35,6 +36,9 @@ M.mason = {
     -- Lua
     "stylua",
     "lua-language-server",
+    
+    -- Csharp
+    "omnisharp",    
  },
 }
 
