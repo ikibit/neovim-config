@@ -15,7 +15,13 @@ end
 lspconfig.elixirls.setup {
   on_attach = on_attach,
   capabilities = capabilities,
-
   cmd = { "/home/kurt/.local/share/nvim/mason/packages/elixir-ls/language_server.sh" };
+  -- cmd = { "/Users/barbaroskurt/.local/share/nvim/mason/packages/elixir-ls/language_server.sh" };
   -- cmd = { "C:/Users/Barbaros/AppData/Local/nvim-data/mason/packages/elixir-ls/language_server.bat" };
+}
+
+lspconfig.omnisharp.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = { "/Users/barbaroskurt/.local/share/nvim/mason/packages/omnisharp/OmniSharp" };
 }
