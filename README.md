@@ -1,6 +1,12 @@
-Ensure NodeJS LTS version installed
+Ensure NodeJS LTS or latest version installed
 
 ## Windows
+
+`scoop install git`
+
+`git config --global pull.rebase false`
+
+`git config --global fetch.prune true`
 
 `scoop install neovim`
 
@@ -23,6 +29,12 @@ Ensure NodeJS LTS version installed
 `git clone https://github.com/ikibit/neovim-config $HOME\AppData\Local\nvim\lua\custom`
 
 ## macOS & Linux
+
+`brew install git`
+
+`git config --global pull.rebase false`
+
+`git config --global fetch.prune true`
 
 `brew install neovim`
 
