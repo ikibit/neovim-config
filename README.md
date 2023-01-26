@@ -8,6 +8,8 @@ Ensure NodeJS LTS version installed
 
 `scoop install gcc`
 
+`scoop install cmake`
+
 `scoop install ripgrep`
 
 `scoop install deno`
