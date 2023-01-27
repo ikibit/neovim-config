@@ -8,8 +8,8 @@ local b = null_ls.builtins
 
 local sources = {
   -- web
-  b.formatting.deno_fmt, -- choosed deno for ts/js files cuz its very fast!
-  -- b.formatting.prettier.with { filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "css", "scss", "less", "html", "json", "jsonc", "yaml", "markdown", "markdown.mdx", "graphql", "handlebars" } }, -- so prettier works only on these filetypes
+  -- b.formatting.deno_fmt,
+  b.formatting.prettier,
   b.code_actions.eslint_d,
   -- elixir
   b.formatting.mix,
