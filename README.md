@@ -26,7 +26,11 @@ Ensure NodeJS LTS or latest version installed
 
 `git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim`
 
-`git clone https://github.com/ikibit/neovim-config $HOME\AppData\Local\nvim\lua\custom`
+`git clone https://github.com/ikibit/neovim-config $HOME\AppData\Local\nvim\lua\custom && nvim`
+
+`:PackerInstall`
+
+`:MasonInstallAll`
 
 ## macOS & Linux
 
@@ -52,4 +56,8 @@ Ensure NodeJS LTS or latest version installed
 
 `git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim`
 
-`git clone https://github.com/ikibit/neovim-config ~/.config/nvim/lua/custom`
+`git clone https://github.com/ikibit/neovim-config $HOME\AppData\Local\nvim\lua\custom && nvim`
+
+`:PackerInstall`
+
+`:MasonInstallAll`
