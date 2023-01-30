@@ -21,7 +21,7 @@ return {
     override_options = overrides.mason,
   },
 
-  -- Better escape
+  -- better-escape
   ["max397574/better-escape.nvim"] = {
     event = "InsertEnter",
     config = function()
@@ -29,7 +29,7 @@ return {
     end,
   },
 
-  -- Code formatting, linting etc
+  -- null-ls
   ["jose-elias-alvarez/null-ls.nvim"] = {
     after = "nvim-lspconfig",
     config = function()
@@ -37,6 +37,9 @@ return {
     end,
   },
 
+  -- vim-fugitive
+  ["tpope/vim-fugitive"] = {},
+  
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
 }
