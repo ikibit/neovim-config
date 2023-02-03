@@ -17,7 +17,7 @@ M.treesitter = {
 
 M.mason = {
   ensure_installed = {
-     -- Web
+    -- Web
     "css-lsp",
     "html-lsp",
     "emmet-ls",
@@ -25,16 +25,14 @@ M.mason = {
     "eslint_d",
     "typescript-language-server",
     "tailwindcss-language-server",
-
     -- Elixir
     "elixir-ls",
-
     -- Lua
     "stylua",
-    
+    "lua-language-server",
     -- Csharp
-    "omnisharp",    
- },
+    "omnisharp",
+  },
 }
 
 -- git support in nvimtree
