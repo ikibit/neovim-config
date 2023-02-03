@@ -61,3 +61,7 @@ Ensure NodeJS LTS or latest version installed
 `:PackerInstall`
 
 `:MasonInstallAll`
+
+ ## Npms
+ 
+ `npm i -g vscode-langservers-extracted`
