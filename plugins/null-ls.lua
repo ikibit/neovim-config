@@ -8,8 +8,8 @@ local b = null_ls.builtins
 
 local sources = {
   -- web
-  -- b.formatting.deno_fmt,
-  b.formatting.prettier,
+  -- b.formatting.prettier,
+  b.formatting.deno_fmt,
   b.code_actions.eslint_d,
   -- elixir
   b.formatting.mix,

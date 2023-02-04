@@ -39,7 +39,6 @@ return {
 
   -- vim-fugitive
   ["tpope/vim-fugitive"] = {},
-  
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
 }
