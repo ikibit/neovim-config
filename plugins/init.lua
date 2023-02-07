@@ -45,4 +45,13 @@ return {
 
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
+  
+  ["NvChad/ui"] = {
+    override_options = {
+        statusline = {
+            separator_style = "arrow", -- default/round/block/arrow
+            overriden_modules = nil,
+        },
+    },
+  },
 }
